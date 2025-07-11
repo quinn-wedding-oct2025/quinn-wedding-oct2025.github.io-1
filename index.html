@@ -1,1 +1,94 @@
-<h1>coming soon</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quinn 2025 Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+          <a href="index.html" class="logo">Brecken & Johnathan</a>
+      
+          <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+      
+          <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Details</a></li>
+            <li><a href="https://duke.qualtrics.com/jfe/form/SV_1TUlJREQml8gJNk">RSVP</a></li>
+            <li><a href="https://www.amazon.com/wedding/registry/YRT7P6FN5E8E">Registry</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      
+
+  <div class="container">
+    <div class="text-section">
+      <h1><em>Welcome to the Quinn's Wedding Website</em></h1>
+      <p class="thank-you">Thank you for celebrating this special day with us!</p>
+      <!--- <a class="button" href="#">Our Story</a> -->
+    </div>
+    <div class="image-section-vert">
+      <img src="images/couple.png" alt="Brecken & Johnathan">
+    </div>
+  </div>
+
+  <div class="rsvp-section">
+    <a href="https://duke.qualtrics.com/jfe/form/SV_1TUlJREQml8gJNk" target = "_blank" class = "rsvp-button">RSVP</a>
+  </div>
+  
+
+  <div class="details-section">
+    <img src="images/details.png" alt="Wedding date and location section" />
+  </div>
+
+  <div class="location-card">
+    <div class="location-text">
+      <h2>Wedding <span>Details</span></h2>
+      <p>Find more information about the wedding here!</p>
+      <a href="details.html" class="learn-more">More →</a>
+    </div>
+    <div class="location-photo"> 
+      <img src="images/detailsphoto.png" alt="">
+    </div>
+  </div>
+
+  <div class="location-card">
+    <div class="location-text">
+      <h2>The <span>Location</span></h2>
+      <p>1155 Holy Trinity Church Rd<br>Little Mountain, SC 29075</p>
+      <a href="location.html" class="learn-more">More →</a>
+    </div>
+    <div class="location-photo">
+      <img src="images/venue.jpg" alt="Wedding venue photo">
+    </div>
+  </div>
+
+  <div class="location-card">
+    <div class="location-text">
+      <h2>Gift <span>Registry</span></h2>
+      <p>We’ve created a gift registry to help celebrate our special day. Thank you so much for your love and generosity!</p>
+      <a href="https://www.amazon.com/wedding/registry/YRT7P6FN5E8E" target="_blank" class="learn-more">Click Here →</a>
+    </div>
+    <!--<div class="location-photo"> 
+      <img src="images/homestoryphoto.jpg" alt="Our story">
+    </div> -->
+  </div>
+  
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.getElementById('nav-links');
+  
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
